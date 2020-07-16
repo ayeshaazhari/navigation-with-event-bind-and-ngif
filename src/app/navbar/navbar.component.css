@@ -3,10 +3,12 @@ li {
   padding: 10px;
   border:1px solid gray;
   margin:2px;
-  background-color:aqua;
+  background-color:brown;
+  border-radius:10%;
+  box-shadow:0 0 8px rgb(202, 198, 198,0.5);
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
