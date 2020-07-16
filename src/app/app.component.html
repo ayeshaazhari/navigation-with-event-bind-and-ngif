@@ -1,0 +1,4 @@
+<app-navbar (featureSelected)= "showFeature($event)"></app-navbar>
+<hr>
+<app-recipe *ngIf="selectedTab == 'recipe'"></app-recipe>
+<app-shopping *ngIf="selectedTab == 'shopping'"></app-shopping>
