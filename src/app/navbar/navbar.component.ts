@@ -6,7 +6,7 @@ import { Component, OnInit, EventEmitter , Output} from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-feature;
+feature = 'recipe';
 @Output() featureSelected = new EventEmitter<String>();
   constructor() { }
 

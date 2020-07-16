@@ -9,6 +9,6 @@ export class AppComponent  {
   name = 'Angular ' + VERSION.major;
 selectedTab = "recipe";
   showFeature(selectedFeature){
-   this.selectedTab = selectedFeature
+   this.selectedTab = selectedFeature;
   }
 }
